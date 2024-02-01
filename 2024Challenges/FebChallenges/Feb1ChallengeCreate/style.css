@@ -1,0 +1,30 @@
+
+body{
+  background-color: rgb(53, 52, 52);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dollar {
+  color: rgb(239, 239, 239);
+  font-size: 50px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 25px #00bfff, 0 0 35px #1e90ff, 0 0 45px #87cefa, 0 0 55px #add8e6, 0 0 65px #b0e0e6, 0 0 75px #b0e0e6, 0 0 85px #b0e2ff;
+  }
+
+  to {
+    text-shadow: 0 0 2px #00bfff, 0 0 2px #1e90ff, 0 0 2px #87cefa, 0 0 2px #add8e6, 0 0 2px #b0e0e6, 0 0 2px #b0e0e6, 0 0 2px #b0e2ff;
+  }
+}
